@@ -1,16 +1,114 @@
-# React + Vite
+# F1 Universe – Formula 1 Information & Analytics Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Formula 1 information and analytics platform designed to provide race schedules, driver and constructor information, championship standings, circuit details, race highlights, and dynamic race data in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+You can view the deployed project here: **Coming Soon**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+F1 Universe is a Formula 1-focused web application that brings essential racing information into a single interactive platform.
+
+The application combines dynamic Formula 1 data from external APIs with locally maintained circuit and driver assets to provide an engaging and responsive user experience.
+
+The project demonstrates practical implementation of React-based frontend development, REST API integration, dynamic data rendering, client-side routing, caching, and responsive UI design.
+
+---
+
+## ⚙️ Core Features
+
+- 🏎️ Formula 1 driver profiles
+- 🏁 Formula 1 team and constructor profiles
+- 📅 Dynamic race calendar
+- ⏱️ Next race information with live countdown
+- 🏆 Driver Championship standings
+- 🏆 Constructor Championship standings
+- 📊 Driver and team career statistics
+- 🗺️ Circuit information and layouts
+- 🎬 Race highlights section
+- 📆 Season-based Formula 1 data
+- ⚡ API response caching for improved performance
+- 📱 Responsive user interface
+- 👤 Dedicated creator profile page
+
+---
+
+## 🔌 API Integration
+
+The application integrates Formula 1 data through the Jolpica F1 API, which provides Ergast-compatible motorsport data.
+
+Dynamic data includes:
+
+- Race schedules
+- Driver standings
+- Constructor standings
+- Race results
+- Driver statistics
+- Constructor statistics
+
+Static circuit information such as circuit length, number of laps, and circuit images is maintained locally where appropriate.
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- React Icons
+- REST API Integration
+- Jolpica F1 API
+- Vite
+- Git & GitHub
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+
+<!-- Add homepage screenshot here -->
+
+### Drivers
+
+<!-- Add drivers page screenshot here -->
+
+### Driver Profile
+
+<!-- Add driver profile screenshot here -->
+
+### Teams
+
+<!-- Add teams page screenshot here -->
+
+### Calendar
+
+<!-- Add calendar page screenshot here -->
+
+### Championship Standings
+
+<!-- Add standings page screenshot here -->
+
+### Race Highlights
+
+<!-- Add highlights page screenshot here -->
+
+### About the Creator
+
+<!-- Add About Me page screenshot here -->
+
+---
+
+## 🚀 Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
