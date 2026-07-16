@@ -1,0 +1,177 @@
+.standings-page {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+}
+
+.standings-header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.standings-header p {
+    color: #999;
+    margin-bottom: 35px;
+}
+
+.standings-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.toggle-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-buttons button {
+    background: #161616;
+    color: white;
+    border: 1px solid #333;
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.toggle-buttons button:hover {
+    border-color: #E10600;
+}
+
+.toggle-buttons button.active {
+    background: #E10600;
+    border-color: #E10600;
+}
+
+select {
+    background: #111;
+    color: white;
+    border: 1px solid #444;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.standings-table-container{
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+    border-radius:10px;
+}
+
+.standings-scroll{
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    padding-bottom:10px;
+
+    scrollbar-width:thin;
+
+    scrollbar-color:#E10600 #111;
+}
+
+.standings-table{
+    width:100%;
+    min-width:900px;
+    border-collapse:collapse;
+}
+.standings-table th {
+    background: #111;
+    padding: 16px;
+    text-align: left;
+    border-bottom: 2px solid #E10600;
+}
+
+.standings-table td {
+    padding: 16px;
+    border-bottom: 1px solid #222;
+}
+
+.standings-table tbody tr:hover {
+    background: #171717;
+}
+
+.loading {
+    text-align: center;
+    padding: 80px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.position{
+    font-size:18px;
+    font-weight:700;
+    width:70px;
+}
+
+.driver-info{
+    display:flex;
+    flex-direction:column;
+}
+
+.driver-name{
+    font-size:16px;
+    font-weight:600;
+    color:#fff;
+}
+
+.driver-nationality{
+    margin-top:4px;
+    font-size:12px;
+    color:#9d9d9d;
+}
+
+.points{
+    font-size:18px;
+    font-weight:700;
+    color:#E10600;
+}
+
+.standings-table tbody tr{
+    transition: background .25s ease;
+}
+
+.standings-table tbody tr:hover{
+
+    background:#171717;
+
+    transform:translateX(6px);
+
+}
+
+.standings-table-container::-webkit-scrollbar{
+    height:8px;
+}
+
+.standings-table-container::-webkit-scrollbar-track{
+    background:#111;
+}
+
+.standings-table-container::-webkit-scrollbar-thumb{
+    background:#444;
+    border-radius:20px;
+}
+
+.standings-table-container::-webkit-scrollbar-thumb:hover{
+    background:#E10600;
+}
+
+.driver-team{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-top:6px;
+    font-size:13px;
+    color:#bdbdbd;
+}
+
+.driver-team-logo{
+    width:18px;
+    height:18px;
+    object-fit:contain;
+}

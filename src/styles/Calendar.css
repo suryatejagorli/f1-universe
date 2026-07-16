@@ -1,0 +1,419 @@
+/* ===========================
+   Calendar Page
+=========================== */
+
+.calendar-page {
+    min-height: 100vh;
+    color: white;
+}
+
+/* ===========================
+   Hero Section
+=========================== */
+
+.calendar-hero {
+    max-width: 900px;
+    margin: 100px auto 80px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.calendar-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.calendar-subtitle {
+    font-size: 1.3rem;
+    color: #bdbdbd;
+    margin-bottom: 18px;
+}
+
+.calendar-description {
+    font-size: 1.05rem;
+    color: #8d8d8d;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+
+.calendar-divider {
+    width: 120px;
+    height: 4px;
+    background: #e10600;
+    border-radius: 50px;
+    margin: auto;
+}
+
+/* ===========================
+   Season Selector
+=========================== */
+
+.timeline-card {
+    width:min(90%, 1100px);
+    margin:60px auto 80px;
+    padding:40px 40px 48px;
+    border-radius:20px;
+    background:rgba(20,20,20,.45);
+    border:1px solid rgba(255,255,255,.06);
+    min-height:340px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+}
+
+.season-navigation{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin:0 0 10px;
+    margin-bottom:45px;
+}
+
+.current-season{
+    width:130px;
+    height:55px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#e10600;
+    color:#fff;
+    border:none;
+    border-radius:12px;
+    font-size:1.25rem;
+    font-weight:700;
+}
+
+.current-season:hover{
+    background:#ff1f1f;
+}
+
+.season-arrow{
+    width:55px;
+    height:55px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:2px solid #333;
+    background:transparent;
+    color:white;
+    border-radius:12px;
+    font-size:1.5rem;
+
+    cursor:pointer;
+    transition:.3s;
+}
+.season-arrow:hover{
+    border-color:#e10600;
+    color:#e10600;
+}
+
+.season-heading{
+    font-size:2rem;
+    color:white;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/* ===============================
+        Timeline
+================================ */
+
+.timeline-card{
+    padding:55px 50px 45px;
+}
+
+.timeline-heading{
+    text-align:center;
+    font-size:2rem;
+    color:white;
+    margin:0 0 18px;
+    margin-bottom:35px;
+}
+
+.timeline-scroll{
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    width:100%;
+
+    padding:0 25px 10px;
+
+    box-sizing:border-box;
+}
+
+.timeline-scroll::-webkit-scrollbar{
+    height:8px;
+}
+
+.timeline-scroll::-webkit-scrollbar-thumb{
+    background:#e10600;
+    border-radius:20px;
+}
+
+.timeline-track{
+    display:flex;
+    align-items:flex-start;
+    gap:70px;
+    min-width:max-content;
+    position:relative;
+    padding:40px 80px 15px;
+    margin:0 auto;
+}
+
+.timeline-track::before{
+    content:"";
+    position:absolute;
+    top:62px;
+    left:0;
+    right:0;
+    height:3px;
+    background:#2d2d2d;
+    z-index:0;
+}
+
+.timeline-item{
+    position:relative;
+    text-align:center;
+    min-width:130px;
+    z-index:1;
+}
+
+.timeline-dot{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    margin:0 auto 18px;
+    border:3px solid white;
+}
+
+.timeline-item h4{
+    color:white;
+    margin-bottom:8px;
+    font-size:18px;
+}
+
+.timeline-item p{
+    color:#9d9d9d;
+    font-size:15px;
+}
+
+
+/* Completed */
+
+.timeline-item.completed .timeline-dot{
+    background:#e10600;
+}
+
+/* Current */
+
+.timeline-item.current .timeline-dot{
+    background:#00ff66;
+    box-shadow:0 0 15px #00ff66;
+}
+
+/* Upcoming */
+
+.timeline-item.upcoming .timeline-dot{
+    background:#ffffff;
+}
+
+/* Cancelled */
+
+.timeline-item.cancelled .timeline-dot{
+    background:#5b5b5b;
+}
+
+/* ===========================
+      Circuit Cards
+=========================== */
+
+.circuits-section{
+    display:flex;
+    justify-content:center;
+    margin:70px auto 100px;
+}
+
+
+.circuit-card{
+
+    width:min(68%,850px);
+    margin:0 auto;
+
+    display:flex;
+    align-items:center;
+
+    background:rgba(20,20,20,.45);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.35s;
+}
+
+.circuit-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#e10600;
+}
+
+.circuit-image{
+
+    width:42%;
+}
+
+.circuit-image img{
+
+    width:100%;
+
+    height:290px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.circuit-details{
+
+    flex:1;
+
+    padding:40px;
+}
+
+.round{
+
+    color:#e10600;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+}
+
+.circuit-details h2{
+
+    color:white;
+
+    font-size:2rem;
+
+    margin-bottom:8px;
+}
+
+.circuit-details h3{
+
+    color:#cfcfcf;
+
+    margin-bottom:22px;
+}
+
+.circuit-details p{
+
+    color:#bdbdbd;
+
+    margin-bottom:12px;
+
+    font-size:1.05rem;
+}
+
+.circuits-scroll{
+
+    width:min(88%,1100px);
+
+    height:700px;          /* adjust later */
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:30px;
+
+    padding-right:12px;
+}
+
+.circuits-scroll::-webkit-scrollbar{
+    width:8px;
+}
+
+.circuits-scroll::-webkit-scrollbar-track{
+    background:#1b1b1b;
+    border-radius:20px;
+}
+
+.circuits-scroll::-webkit-scrollbar-thumb{
+    background:#e10600;
+    border-radius:20px;
+}
+
+.circuits-scroll::-webkit-scrollbar-thumb:hover{
+    background:#ff2d2d;
+}
+
+.active-card{
+    border:2px solid #00ff6a;
+    box-shadow:0 0 20px rgba(0,255,106,.35);
+}
+.track-card{
+    width:460px;          /* adjust to match countdown */
+    max-width:100%;
+    margin-top:24px;
+}
+
+.track-image{
+    width:100%;
+    height:115px;              
+    object-fit:cover;
+    object-position:center;
+    border-radius:14px;
+    border:2px solid rgba(255,255,255,.08);
+    transition:.3s;
+}
+
+.track-image:hover{
+    transform:scale(1.02);
+}
+
+.track-card p{
+    margin-top:8px;
+    font-size:16px;
+}
+.track-card h3{
+    margin-bottom:8px;
+}
+
+.team-cell{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+}
+
+.team-cell img{
+
+width:34px;
+
+height:34px;
+
+object-fit:contain;
+
+}
