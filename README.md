@@ -90,7 +90,8 @@ Static circuit information such as circuit length, number of laps, and circuit i
 
 ### About the Creator
 
-![F1 Universe About the Creator](screenshots/about.png)
+![F1 Universe About the Creator](about.png)
+
 ---
 
 ## 🚀 Running the Project Locally
