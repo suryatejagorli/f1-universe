@@ -92,7 +92,23 @@ Static circuit information such as circuit length, number of laps, and circuit i
 
 ## 🚀 Running the Project Locally
 
-Clone the repository:
+## 🎯 Project Objective
 
-```bash
-git clone YOUR_REPOSITORY_URL
+To design and develop a modern Formula 1 information and analytics platform that brings together driver information, team details, race schedules, championship standings, and race highlights in a single interactive web application.
+
+The project demonstrates API integration, dynamic data rendering, responsive frontend development, and structured React component architecture.
+
+---
+
+## 👨‍💻 Developer
+
+**Surya Teja Gorli**  
+B.Tech Computer Science and Engineering (AI-ML)  
+SRM Institute of Science and Technology
+
+GitHub: https://github.com/suryatejagorli  
+LinkedIn: https://linkedin.com/in/suryatejagorli
+
+---
+
+Developed independently as a Formula 1 information and analytics platform.
