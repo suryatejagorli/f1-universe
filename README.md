@@ -90,8 +90,6 @@ Static circuit information such as circuit length, number of laps, and circuit i
 
 ---
 
-## 🚀 Running the Project Locally
-
 ## 🎯 Project Objective
 
 To design and develop a modern Formula 1 information and analytics platform that brings together driver information, team details, race schedules, championship standings, and race highlights in a single interactive web application.
