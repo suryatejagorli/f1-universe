@@ -8,10 +8,6 @@ A modern Formula 1 information and analytics platform designed to provide race s
 
 You can view the deployed project here: **Coming Soon**
 
----
-🔒 Source Code: © 2026 Surya Teja Gorli. All rights reserved.
---- 
-
 ## 📌 Overview
 
 F1 Universe is a Formula 1-focused web application that brings essential racing information into a single interactive platform.
