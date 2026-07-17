@@ -6,7 +6,7 @@ A modern Formula 1 information and analytics platform designed to provide race s
 
 ## 🌐 Live Demo
 
-You can view the deployed project here: **Coming Soon**
+You can view the deployed project here: **(https://f1-universe.pages.dev/)**
 
 ## 📌 Overview
 
