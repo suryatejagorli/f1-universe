@@ -6,6 +6,30 @@ import {
   getCareerDriverStats
 } from "../services/driverApi"
 
+// Driver Images
+import maxVerstappen from "../assets/drivers/max-verstappen.png"
+import lewisHamilton from "../assets/drivers/lewis-hamilton.png"
+import charlesLeclerc from "../assets/drivers/charles-leclerc.png"
+import georgeRussell from "../assets/drivers/george-russell.png"
+import kimiAntonelli from "../assets/drivers/kimi-antonelli.png"
+import landoNorris from "../assets/drivers/lando-norris.png"
+import oscarPiastri from "../assets/drivers/oscar-piastri.png"
+import fernandoAlonso from "../assets/drivers/fernando-alonso.png"
+import carlosSainz from "../assets/drivers/carlos-sainz.png"
+import alexAlbon from "../assets/drivers/alex-albon.png"
+import yukiTsunoda from "../assets/drivers/yuki-tsunoda.png"
+import pierreGasly from "../assets/drivers/pierre-gasly.png"
+import estebanOcon from "../assets/drivers/esteban-ocon.png"
+import liamLawson from "../assets/drivers/liam-lawson.png"
+import isackHadjar from "../assets/drivers/isack-hadjar.png"
+import lanceStroll from "../assets/drivers/lance-stroll.png"
+import oliverBearman from "../assets/drivers/oliver-bearman.png"
+import nicoHulkenberg from "../assets/drivers/nico-hulkenberg.png"
+import gabrielBortoleto from "../assets/drivers/gabriel-bortoleto.png"
+import francoColapinto from "../assets/drivers/franco-colapinto.png"
+import sergioPerez from "../assets/drivers/sergio-perez.png"
+import coltonHerta from "../assets/drivers/colton-herta.png"
+
 function DriverProfile() {
 
   const { name } = useParams()
@@ -22,7 +46,7 @@ function DriverProfile() {
       nationality: "Netherlands",
       dateOfBirth: "1997-09-30",
       number: 1,
-      image: "/src/assets/drivers/max-verstappen.png"
+      image: maxVerstappen
     },
 
     "lewis-hamilton": {
@@ -31,7 +55,7 @@ function DriverProfile() {
       nationality: "United Kingdom",
       dateOfBirth: "1985-01-07",
       number: 44,
-      image: "/src/assets/drivers/lewis-hamilton.png"
+      image: lewisHamilton
     },
 
     "charles-leclerc": {
@@ -40,7 +64,7 @@ function DriverProfile() {
       nationality: "Monaco",
       dateOfBirth: "1997-10-16",
       number: 16,
-      image: "/src/assets/drivers/charles-leclerc.png"
+      image: charlesLeclerc
     },
 
     "george-russell": {
@@ -49,7 +73,7 @@ function DriverProfile() {
       nationality: "United Kingdom",
       dateOfBirth: "1998-02-15",
       number: 63,
-      image: "/src/assets/drivers/george-russell.png"
+      image: georgeRussell
     },
 
     "kimi-antonelli": {
@@ -58,7 +82,7 @@ function DriverProfile() {
       nationality: "Italy",
       dateOfBirth: "2006-08-25",
       number: 12,
-      image: "/src/assets/drivers/kimi-antonelli.png"
+      image: kimiAntonelli
     },
 
     "lando-norris": {
@@ -67,7 +91,7 @@ function DriverProfile() {
       nationality: "United Kingdom",
       dateOfBirth: "1999-11-13",
       number: 4,
-      image: "/src/assets/drivers/lando-norris.png"
+      image: landoNorris
     },
 
     "oscar-piastri": {
@@ -76,7 +100,7 @@ function DriverProfile() {
       nationality: "Australia",
       dateOfBirth: "2001-04-06",
       number: 81,
-      image: "/src/assets/drivers/oscar-piastri.png"
+      image: oscarPiastri
     },
 
     "fernando-alonso": {
@@ -85,7 +109,7 @@ function DriverProfile() {
       nationality: "Spain",
       dateOfBirth: "1981-07-29",
       number: 14,
-      image: "/src/assets/drivers/fernando-alonso.png"
+      image: fernandoAlonso
     },
 
     "carlos-sainz": {
@@ -94,7 +118,7 @@ function DriverProfile() {
       nationality: "Spain",
       dateOfBirth: "1994-09-01",
       number: 55,
-      image: "/src/assets/drivers/carlos-sainz.png"
+      image: carlosSainz
     },
 
     "alex-albon": {
@@ -103,7 +127,7 @@ function DriverProfile() {
       nationality: "Thailand",
       dateOfBirth: "1996-03-23",
       number: 23,
-      image: "/src/assets/drivers/alex-albon.png"
+      image: alexAlbon
     },
 
     "yuki-tsunoda": {
@@ -112,7 +136,7 @@ function DriverProfile() {
       nationality: "Japan",
       dateOfBirth: "2000-05-11",
       number: 22,
-      image: "/src/assets/drivers/yuki-tsunoda.png"
+      image: yukiTsunoda
     },
 
     "pierre-gasly": {
@@ -121,7 +145,7 @@ function DriverProfile() {
       nationality: "France",
       dateOfBirth: "1996-02-07",
       number: 10,
-      image: "/src/assets/drivers/pierre-gasly.png"
+      image: pierreGasly
     },
 
     "esteban-ocon": {
@@ -130,7 +154,7 @@ function DriverProfile() {
       nationality: "France",
       dateOfBirth: "1996-09-17",
       number: 31,
-      image: "/src/assets/drivers/esteban-ocon.png"
+      image: estebanOcon
     },
 
     "liam-lawson": {
@@ -139,7 +163,7 @@ function DriverProfile() {
       nationality: "New Zealand",
       dateOfBirth: "2002-02-11",
       number: 30,
-      image: "/src/assets/drivers/liam-lawson.png"
+      image: liamLawson
     },
 
     "isack-hadjar": {
@@ -148,7 +172,7 @@ function DriverProfile() {
       nationality: "France",
       dateOfBirth: "2004-09-28",
       number: 6,
-      image: "/src/assets/drivers/isack-hadjar.png"
+      image: isackHadjar
     },
 
     "lance-stroll": {
@@ -157,7 +181,7 @@ function DriverProfile() {
       nationality: "Canada",
       dateOfBirth: "1998-10-29",
       number: 18,
-      image: "/src/assets/drivers/lance-stroll.png"
+      image: lanceStroll
     },
 
     "oliver-bearman": {
@@ -166,7 +190,7 @@ function DriverProfile() {
       nationality: "United Kingdom",
       dateOfBirth: "2005-05-08",
       number: 87,
-      image: "/src/assets/drivers/oliver-bearman.png"
+      image: oliverBearman
     },
 
     "nico-hulkenberg": {
@@ -175,7 +199,7 @@ function DriverProfile() {
       nationality: "Germany",
       dateOfBirth: "1987-08-19",
       number: 27,
-      image: "/src/assets/drivers/nico-hulkenberg.png"
+      image: nicoHulkenberg
     },
 
     "gabriel-bortoleto": {
@@ -184,7 +208,7 @@ function DriverProfile() {
       nationality: "Brazil",
       dateOfBirth: "2004-10-14",
       number: 5,
-      image: "/src/assets/drivers/gabriel-bortoleto.png"
+      image: gabrielBortoleto
     },
 
     "franco-colapinto": {
@@ -193,7 +217,7 @@ function DriverProfile() {
       nationality: "Argentina",
       dateOfBirth: "2003-05-27",
       number: 43,
-      image: "/src/assets/drivers/franco-colapinto.png"
+      image: francoColapinto
     },
 
     "sergio-perez": {
@@ -202,7 +226,7 @@ function DriverProfile() {
       nationality: "Mexico",
       dateOfBirth: "1990-01-26",
       number: 11,
-      image: "/src/assets/drivers/sergio-perez.png"
+      image: sergioPerez
     },
 
     "colton-herta": {
@@ -211,7 +235,7 @@ function DriverProfile() {
       nationality: "United States",
       dateOfBirth: "2000-03-30",
       number: 26,
-      image: "/src/assets/drivers/colton-herta.png"
+      image: coltonHerta
     }
 
   }
