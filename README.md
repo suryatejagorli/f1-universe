@@ -74,19 +74,15 @@ Static circuit information such as circuit length, number of laps, and circuit i
 
 ### Homepage
 
-![F1 Universe Homepage](screenshots/home.png)
+![F1 Universe Homepage](home.png)
 
 ### Driver Profile
 
-![F1 Universe Driver Profile](screenshots/driver-profile.png)
-
-### Calendar
-
-![F1 Universe Calendar](screenshots/calendar.png)
+![F1 Universe Driver Profile](driver-profile.png)
 
 ### Championship Standings
 
-![F1 Universe Championship Standings](screenshots/standings.png)
+![F1 Universe Championship Standings](standings.png)
 
 ### About the Creator
 
