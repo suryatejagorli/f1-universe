@@ -9,6 +9,8 @@ A modern Formula 1 information and analytics platform designed to provide race s
 You can view the deployed project here: **Coming Soon**
 
 ---
+🔒 Source Code: © 2026 Surya Teja Gorli. All rights reserved.
+--- 
 
 ## 📌 Overview
 
