@@ -109,10 +109,6 @@ LinkedIn: https://linkedin.com/in/suryatejagorli
 
 ---
 
-Developed independently as a Formula 1 information and analytics platform.
-
----
-
 ## ©️ Copyright
 
 © 2026 Surya Teja Gorli. All rights reserved.
