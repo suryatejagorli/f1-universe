@@ -1,0 +1,594 @@
+/* ===================================================
+   F1 UNIVERSE - MOBILE RESPONSIVE
+   PART 1
+   Navbar + Home + Drivers + Teams
+===================================================*/
+
+@media screen and (max-width:1024px){
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    padding:16px 24px;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.logo{
+    font-size:1.8rem;
+}
+
+.nav-links{
+    gap:18px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    grid-template-columns:1fr;
+    padding:30px 24px;
+    gap:35px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:100%;
+}
+
+.hero-content h1{
+    font-size:2.8rem;
+    line-height:1.2;
+}
+
+.hero-image{
+    margin:auto;
+    width:100%;
+    text-align:center;
+}
+
+.hero-car{
+    width:100%;
+    max-width:700px;
+    transform:none;
+}
+
+.track-card{
+    width:100%;
+    max-width:100%;
+}
+
+.track-card img{
+    height:auto;
+}
+
+.hero-countdown{
+    left:20px;
+    bottom:-20px;
+}
+
+.hero-time span:first-child{
+    font-size:32px !important;
+}
+
+.hero-time span:last-child{
+    letter-spacing:2px;
+}
+
+.creator-btn{
+    min-width:280px;
+    font-size:20px;
+}
+
+/* ================= DRIVERS ================= */
+
+.drivers-page{
+    padding:40px 25px;
+}
+
+.drivers-page h1{
+    font-size:46px;
+}
+
+.drivers-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.driver-card{
+    padding:20px;
+}
+
+.driver-photo{
+    width:120px;
+    height:120px;
+}
+
+/* ================= TEAMS ================= */
+
+.teams-page{
+    padding:40px 25px;
+}
+
+.teams-page h1{
+    font-size:46px;
+}
+
+.teams-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+}
+
+.team-card{
+    padding:24px;
+}
+
+.team-logo-box{
+    width:110px;
+    height:110px;
+}
+
+.team-logo{
+    width:85px;
+    height:85px;
+}
+
+}
+
+/* =====================================================
+   MOBILE
+=====================================================*/
+
+@media screen and (max-width:768px){
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    padding:15px;
+    flex-direction:column;
+}
+
+.logo{
+    font-size:1.6rem;
+}
+
+.nav-links{
+    width:100%;
+    justify-content:center;
+    gap:14px;
+    padding:0;
+}
+
+.nav-links li{
+    font-size:15px;
+}
+
+/* ================= HOME ================= */
+
+.hero{
+    padding:20px 18px;
+}
+
+.hero-content{
+    order:2;
+}
+
+.hero-image{
+    order:1;
+}
+
+.hero-content h1{
+    font-size:2.2rem;
+    text-align:center;
+}
+
+.hero-tag{
+    display:block;
+    text-align:center;
+}
+
+.circuit-location{
+    text-align:center;
+}
+
+.race-details{
+    padding-left:12px;
+}
+
+.race-details p{
+    font-size:14px;
+}
+
+.track-card{
+    margin-top:18px;
+}
+
+.hero-car{
+    width:100%;
+}
+
+.hero-countdown{
+    position:relative;
+    left:0;
+    bottom:0;
+    transform:none;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:25px;
+    background:transparent;
+    backdrop-filter:none;
+    gap:18px;
+}
+
+.hero-time{
+    align-items:center;
+}
+
+.hero-time span:first-child{
+    font-size:28px !important;
+}
+
+.hero-time span:last-child{
+    font-size:8px;
+    letter-spacing:1px;
+}
+
+.creator-section{
+    margin:35px 0;
+}
+
+.creator-btn{
+    min-width:90%;
+    height:60px;
+    font-size:18px;
+}
+
+/* ================= DRIVERS ================= */
+
+.drivers-page{
+    padding:25px 18px;
+}
+
+.drivers-page h1{
+    font-size:34px;
+}
+
+.drivers-grid{
+    grid-template-columns:1fr;
+}
+
+.driver-photo{
+    width:110px;
+    height:110px;
+}
+
+.driver-name{
+    font-size:22px;
+}
+
+/* ================= TEAMS ================= */
+
+.teams-page{
+    padding:25px 18px;
+}
+
+.teams-page h1{
+    font-size:34px;
+}
+
+.teams-grid{
+    grid-template-columns:1fr;
+}
+
+.team-card{
+    padding:22px;
+}
+
+.team-name{
+    font-size:28px;
+}
+
+.team-drivers{
+    font-size:16px;
+}
+
+}
+
+/* ===================================================
+   F1 UNIVERSE - MOBILE RESPONSIVE
+   PART 2
+===================================================*/
+
+/* ============================
+   TABLET (1024px)
+============================ */
+
+@media screen and (max-width:1024px){
+
+/* Driver Profile */
+
+.profile-page{
+    padding:35px 25px;
+}
+
+.profile-card{
+    max-width:100%;
+    padding:30px;
+}
+
+.profile-image{
+    width:200px;
+    height:200px;
+}
+
+.profile-card h1{
+    font-size:2.3rem;
+}
+
+.profile-card h3{
+    font-size:1.2rem;
+}
+
+.profile-details{
+    max-width:100%;
+}
+
+.profile-details p{
+    font-size:18px;
+}
+
+.stats-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+/* Standings */
+
+.standings-page{
+    padding:35px 25px;
+}
+
+.standings-header{
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.standings-controls{
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.standings-table{
+    overflow-x:auto;
+}
+
+table{
+    min-width:900px;
+}
+
+/* Calendar */
+
+.calendar-page{
+    padding:35px 25px;
+}
+
+.calendar-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+/* Team Profile */
+
+.team-profile-page{
+    padding:35px 25px;
+}
+
+.team-profile-header{
+    flex-direction:column;
+    text-align:center;
+}
+
+.team-profile-header img{
+    width:180px;
+}
+
+.team-drivers-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+/* Highlights */
+
+.highlights-page{
+    padding:35px 25px;
+}
+
+.highlights-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+/* About */
+
+.about-page{
+    padding:35px 25px;
+}
+
+.about-container{
+    flex-direction:column;
+    gap:30px;
+}
+
+.about-image img{
+    width:300px;
+}
+
+}
+
+/* ============================
+   MOBILE (768px)
+============================ */
+
+@media screen and (max-width:768px){
+
+/* Driver Profile */
+
+.profile-page{
+    padding:20px 15px;
+}
+
+.profile-card{
+    padding:20px;
+}
+
+.profile-image{
+    width:160px;
+    height:160px;
+}
+
+.profile-card h1{
+    font-size:2rem;
+}
+
+.profile-card h3{
+    font-size:1rem;
+}
+
+.profile-details{
+    text-align:left;
+}
+
+.profile-details p{
+    font-size:16px;
+}
+
+.stats-heading{
+    font-size:1.6rem;
+    margin-top:45px;
+}
+
+.stats-grid{
+    grid-template-columns:1fr;
+}
+
+/* Standings */
+
+.standings-page{
+    padding:20px 15px;
+}
+
+.standings-header{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.standings-controls{
+    width:100%;
+    flex-direction:column;
+}
+
+.standings-controls select,
+.standings-controls button{
+    width:100%;
+}
+
+.standings-table{
+    overflow-x:auto;
+    border-radius:12px;
+}
+
+/* Calendar */
+
+.calendar-page{
+    padding:20px 15px;
+}
+
+.calendar-grid{
+    grid-template-columns:1fr;
+}
+
+/* Team Profile */
+
+.team-profile-page{
+    padding:20px 15px;
+}
+
+.team-profile-header{
+    text-align:center;
+}
+
+.team-profile-header img{
+    width:140px;
+}
+
+.team-drivers-grid{
+    grid-template-columns:1fr;
+}
+
+/* Highlights */
+
+.highlights-page{
+    padding:20px 15px;
+}
+
+.highlights-grid{
+    grid-template-columns:1fr;
+}
+
+.highlights-grid iframe,
+.highlights-grid video{
+    width:100%;
+    aspect-ratio:16/9;
+}
+
+/* About */
+
+.about-page{
+    padding:20px 15px;
+}
+
+.about-container{
+    flex-direction:column;
+}
+
+.about-image img{
+    width:220px;
+}
+
+.about-content h1{
+    font-size:2rem;
+}
+
+.about-content p{
+    font-size:15px;
+    line-height:1.7;
+}
+
+/* Buttons */
+
+button{
+    width:100%;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+}
+
+/* Images */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Prevent Horizontal Scroll */
+
+html,
+body{
+    overflow-x:hidden;
+}
+
+*{
+    max-width:100%;
+}
+
+}
