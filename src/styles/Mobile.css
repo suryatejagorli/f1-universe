@@ -592,3 +592,189 @@ body{
 }
 
 }
+
+/* =====================================================
+   PART 3
+   EXACT FIXES - Team Profile + Calendar + About Me
+=====================================================*/
+
+@media screen and (max-width:768px){
+
+/* ===================================
+   TEAM PROFILE
+=================================== */
+
+.team-profile{
+    padding:25px 16px;
+}
+
+.team-header{
+    flex-direction:column;
+    text-align:center;
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.team-logo-large{
+    width:150px;
+}
+
+.team-title h1{
+    font-size:2rem;
+}
+
+.team-title p{
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+.since-year{
+    display:block;
+    margin:10px auto 0;
+    width:max-content;
+}
+
+.team-stats-grid{
+    grid-template-columns:1fr;
+    gap:16px;
+}
+
+.team-stat-box{
+    min-height:auto;
+    padding:22px;
+}
+
+.team-info-grid{
+    grid-template-columns:1fr;
+}
+
+.team-drivers-grid{
+    grid-template-columns:1fr;
+}
+
+.team-driver-card{
+    padding:20px;
+}
+
+.gallery-scroll{
+    gap:12px;
+    padding-bottom:10px;
+}
+
+.gallery-scroll img{
+    width:260px;
+    height:auto;
+}
+
+/* ===================================
+   CALENDAR
+=================================== */
+
+.calendar-hero{
+    margin:40px auto;
+    padding:0 16px;
+}
+
+.calendar-title{
+    font-size:2rem;
+}
+
+.calendar-subtitle{
+    font-size:1rem;
+}
+
+.calendar-description{
+    font-size:.95rem;
+}
+
+.timeline-card{
+    width:95%;
+    padding:25px 15px;
+}
+
+.season-navigation{
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.current-season{
+    width:110px;
+    height:48px;
+    font-size:1rem;
+}
+
+.season-arrow{
+    width:48px;
+    height:48px;
+}
+
+.timeline-heading{
+    font-size:1.5rem;
+}
+
+.timeline-scroll{
+    padding:0 0 10px;
+}
+
+.timeline-track{
+    gap:40px;
+    padding:35px 30px 15px;
+}
+
+/* ===================================
+   ABOUT ME
+=================================== */
+
+.about-page{
+    padding:25px 10px;
+}
+
+.hero-card{
+    width:100%;
+    height:auto;
+    min-height:650px;
+    border-radius:20px;
+}
+
+.hero-bg{
+    object-position:center;
+}
+
+.hero-driver{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    transform:none;
+    display:block;
+    margin:30px auto 0;
+    width:220px;
+    height:auto;
+}
+
+.hero-logo{
+    position:relative;
+    left:auto;
+    top:auto;
+    transform:none;
+    width:220px;
+    display:block;
+    margin:25px auto;
+}
+
+.hero-contact{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin:30px 0;
+}
+
+.hero-contact a{
+    width:85%;
+    justify-content:center;
+}
+
+}
